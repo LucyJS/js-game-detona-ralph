@@ -1,0 +1,21 @@
+h2 {
+    color: brown;
+}
+
+.panel {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid brown;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 1px solid gray;
+    background-color: burlywood;
+}
+.enemy {
+    background-color: brown;
+}
