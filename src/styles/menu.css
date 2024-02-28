@@ -9,6 +9,24 @@ h2 {
 
     height: 90px;
     width: 100%;
-    background-color: black;
-    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 5px solid goldenrod;
+    border-top: 5px solid goldenrod;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2),
+.menu-lives h2:nth-child(2) {
+    color: aliceblue;    
+}
+
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2) {
+    margin-top: 1rem;       
 }
